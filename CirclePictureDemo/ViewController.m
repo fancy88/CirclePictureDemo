@@ -29,7 +29,6 @@
     [self.view addSubview:pageView];
     pageView.clickBlock = ^(NSInteger index){
         
-        
         NSLog(@"我是block的回调点击事件，%ld",index);
     };
 }

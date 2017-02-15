@@ -81,8 +81,8 @@
         FLHImageView * imageView = self.scrollView.subviews[i];
         NSInteger index = self.pageControl.currentPage;
         if(i == 0){
+            index--;
             
-            index --;
         }else if (i == 2){
             index++;
         }
@@ -94,7 +94,7 @@
             //最后一张的的后一张是第一张
             index = 0;
         }
-        //把index赋给imageView  起到媒介作用， 后面拿到tag 就是pageControl的index
+        //把index赋给imageView 起到媒介作用，后面拿到tag 就是pageControl的index
         imageView.tag = index;
         imageView.image = [UIImage imageNamed:self.imageArr[index]];
         
@@ -105,10 +105,8 @@
 
 -(void)imageViewClick:(FLHImageView *)imageView{
     
-    
     NSInteger index = imageView.tag;
     [self.delegate pageViewDidClick:index];
-    
     self.clickBlock(index);
     
 }
@@ -144,7 +142,6 @@
 #pragma mark - scrollview
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
-    
     //找到位于最中间的imageView;
     //scroll滚动时 判断三个图片的x与scrollView的contentOffset的x 的绝对值最小的就是即将停在最中间的imageView
     NSInteger page = 0;
@@ -169,7 +166,6 @@
 //定时器 动画结束后重新渲染
 - (void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView
 {
-    
     [self updateImage];
 }
 - (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView
