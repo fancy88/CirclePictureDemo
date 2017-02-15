@@ -28,6 +28,4 @@
 @property (nonatomic, weak) id<FLHPageViewDelegate>delegate;
 @property (nonatomic, strong) UIColor *selectColor;
 
-// + (instancetype)pageView;
-
 @end
