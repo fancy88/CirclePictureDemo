@@ -31,7 +31,7 @@
         self.scrollView.pagingEnabled = YES;
         [self addSubview:self.scrollView];
         
-        self.pageControl = [[UIPageControl alloc] initWithFrame:CGRectMake(self.frame.size.width - 80, self.frame.size.height - 30, 60, 30)];
+        self.pageControl = [[UIPageControl alloc] init];
         self.pageControl.pageIndicatorTintColor = [UIColor grayColor];
         self.pageControl.currentPageIndicatorTintColor = [UIColor redColor];
         self.pageControl.hidesForSinglePage = YES;
