@@ -36,7 +36,7 @@
 
 -(void)pageViewDidClick:(NSInteger)index{
     
-    NSLog(@"我是page代理的回调点击事件%ld",index);
+    NSLog(@"我是page代理的回调点击事件, %ld",index);
     
 }
 
