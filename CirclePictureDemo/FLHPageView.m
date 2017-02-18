@@ -59,7 +59,6 @@
     for (int i = 0 ; i< count;i++){
         
         FLHImageView * imageView = self.scrollView.subviews[i];
-        
         imageView.frame = CGRectMake(i*scrollW, 0, scrollW, scrollH);
         
     }
