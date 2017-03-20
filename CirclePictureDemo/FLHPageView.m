@@ -192,9 +192,7 @@
 
 - (void)next
 {
-    
     [self.scrollView setContentOffset:CGPointMake(2 * self.scrollView.frame.size.width, 0) animated:YES];
-    
 }
 
 

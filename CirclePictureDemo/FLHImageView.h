@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface FLHImageView : UIImageView
+
 -(void)addTarget:(id)target action:(SEL)selector;
+
 @end
