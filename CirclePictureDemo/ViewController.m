@@ -17,8 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     // Do any additional setup after loading the view, typically from a nib.
-
     FLHPageView *pageView = [[FLHPageView alloc] init];
     pageView.frame = CGRectMake(30, 50, self.view.frame.size.width - 60, 130);
     
