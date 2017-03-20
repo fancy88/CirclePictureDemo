@@ -71,7 +71,7 @@
 }
 
 
-#pragma mark  更新图片 渲染
+#pragma mark - 更新图片 渲染
 - (void)updateImage{
     
     //始终让中间的图片显示
@@ -111,7 +111,7 @@
 }
 
 
-#pragma mark -set
+#pragma mark - set
 -(void)setImageArr:(NSArray *)imageArr{
     
     _imageArr = imageArr;

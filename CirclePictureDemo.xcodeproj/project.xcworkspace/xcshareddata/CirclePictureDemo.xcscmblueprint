@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C3C39EAC4EC205DF9B9A0E146F905C070FDE1CAF+++1599FC5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C3C39EAC4EC205DF9B9A0E146F905C070FDE1CAF+++575A18D" : 9223372036854775807,
+    "C3C39EAC4EC205DF9B9A0E146F905C070FDE1CAF+++B4A34AE" : 9223372036854775807,
+    "C3C39EAC4EC205DF9B9A0E146F905C070FDE1CAF+++1599FC5" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F4F36FD0-8AAE-4F66-8FA9-EC2EA612B774",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C3C39EAC4EC205DF9B9A0E146F905C070FDE1CAF+++575A18D" : "",
+    "C3C39EAC4EC205DF9B9A0E146F905C070FDE1CAF+++B4A34AE" : "",
+    "C3C39EAC4EC205DF9B9A0E146F905C070FDE1CAF+++1599FC5" : "CirclePictureDemo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CirclePictureDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CirclePictureDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/GoodLuckFan\/CirclePictureDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C3C39EAC4EC205DF9B9A0E146F905C070FDE1CAF+++1599FC5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/GoodLuckFan\/CirclePictureDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C3C39EAC4EC205DF9B9A0E146F905C070FDE1CAF+++575A18D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/GoodLuckFan\/CirclePictureDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C3C39EAC4EC205DF9B9A0E146F905C070FDE1CAF+++B4A34AE"
+    }
+  ]
+}
