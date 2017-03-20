@@ -30,14 +30,14 @@
     pageView.clickBlock = ^(NSInteger index){
         
         NSLog(@"我是block的回调点击事件，%ld",index);
-        NSLog(@"very good!");
+
     };
 }
 
 -(void)pageViewDidClick:(NSInteger)index{
-    NSLog(@"good!");
+
     NSLog(@"我是page代理的回调点击事件, %ld",index);
-    NSLog(@"hello");
+
 }
 
 
